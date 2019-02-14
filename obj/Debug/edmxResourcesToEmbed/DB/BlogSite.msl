@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BlogSiteModelStoreContainer" CdmEntityContainer="BlogSiteEntities1">
+    <EntitySetMapping Name="Etikets">
+      <EntityTypeMapping TypeName="BlogSiteModel.Etiket">
+        <MappingFragment StoreEntitySet="Etiket">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Adi" ColumnName="Adi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kategoris">
+      <EntityTypeMapping TypeName="BlogSiteModel.Kategori">
+        <MappingFragment StoreEntitySet="Kategori">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Adi" ColumnName="Adi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kullanicis">
+      <EntityTypeMapping TypeName="BlogSiteModel.Kullanici">
+        <MappingFragment StoreEntitySet="Kullanici">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Adi" ColumnName="Adi" />
+          <ScalarProperty Name="Soyadi" ColumnName="Soyadi" />
+          <ScalarProperty Name="Mail" ColumnName="Mail" />
+          <ScalarProperty Name="KayitTarihi" ColumnName="KayitTarihi" />
+          <ScalarProperty Name="Nick" ColumnName="Nick" />
+          <ScalarProperty Name="MultimediaID" ColumnName="MultimediaID" />
+          <ScalarProperty Name="YazarMi" ColumnName="YazarMi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Makales">
+      <EntityTypeMapping TypeName="BlogSiteModel.Makale">
+        <MappingFragment StoreEntitySet="Makale">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Baslik" ColumnName="Baslik" />
+          <ScalarProperty Name="Icerik" ColumnName="Icerik" />
+          <ScalarProperty Name="YayimTarihi" ColumnName="YayimTarihi" />
+          <ScalarProperty Name="KategoriID" ColumnName="KategoriID" />
+          <ScalarProperty Name="YazarID" ColumnName="YazarID" />
+          <ScalarProperty Name="KapakResimID" ColumnName="KapakResimID" />
+          <ScalarProperty Name="Goruntulenme" ColumnName="Goruntulenme" />
+          <ScalarProperty Name="Begeni" ColumnName="Begeni" />
+          <ScalarProperty Name="MakaleTipID" ColumnName="MakaleTipID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MakaleTipis">
+      <EntityTypeMapping TypeName="BlogSiteModel.MakaleTipi">
+        <MappingFragment StoreEntitySet="MakaleTipi">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Adi" ColumnName="Adi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Multimedias">
+      <EntityTypeMapping TypeName="BlogSiteModel.Multimedia">
+        <MappingFragment StoreEntitySet="Multimedia">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Adi" ColumnName="Adi" />
+          <ScalarProperty Name="KucukResimYol" ColumnName="KucukResimYol" />
+          <ScalarProperty Name="OrtaResimYol" ColumnName="OrtaResimYol" />
+          <ScalarProperty Name="BuyukResimYol" ColumnName="BuyukResimYol" />
+          <ScalarProperty Name="EkleyenID" ColumnName="EkleyenID" />
+          <ScalarProperty Name="EklenmeTarihi" ColumnName="EklenmeTarihi" />
+          <ScalarProperty Name="GoruntulenmeSayisi" ColumnName="GoruntulenmeSayisi" />
+          <ScalarProperty Name="Begeni" ColumnName="Begeni" />
+          <ScalarProperty Name="VideoYolu" ColumnName="VideoYolu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Yorums">
+      <EntityTypeMapping TypeName="BlogSiteModel.Yorum">
+        <MappingFragment StoreEntitySet="Yorum">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Baslik" ColumnName="Baslik" />
+          <ScalarProperty Name="Icerik" ColumnName="Icerik" />
+          <ScalarProperty Name="MakaleID" ColumnName="MakaleID" />
+          <ScalarProperty Name="EklenmeTarihi" ColumnName="EklenmeTarihi" />
+          <ScalarProperty Name="YazarID" ColumnName="YazarID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="MakaleEtiket" TypeName="BlogSiteModel.MakaleEtiket" StoreEntitySet="MakaleEtiket">
+      <EndProperty Name="Etiket">
+        <ScalarProperty Name="ID" ColumnName="EtiketID" />
+      </EndProperty>
+      <EndProperty Name="Makale">
+        <ScalarProperty Name="ID" ColumnName="MakaleID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="MakaleResim" TypeName="BlogSiteModel.MakaleResim" StoreEntitySet="MakaleResim">
+      <EndProperty Name="Makale">
+        <ScalarProperty Name="ID" ColumnName="MakaleID" />
+      </EndProperty>
+      <EndProperty Name="Multimedia">
+        <ScalarProperty Name="ID" ColumnName="MultimediaID" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

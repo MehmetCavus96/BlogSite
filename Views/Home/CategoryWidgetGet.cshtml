@@ -1,0 +1,18 @@
+﻿
+
+@model IEnumerable<BlogSite.DB.Kategori>
+
+@{ 
+    Layout = null;
+
+}
+
+<div class="widget categories">
+    <h5>Categories</h5>
+    <ul>
+        @foreach (var kat in Model)
+        {
+            <li><a href="/Kategori/Index/@kat.ID"> @kat.Adi (@kat.Makales.Count) </a></li>
+        }
+    </ul>
+</div>

@@ -1,0 +1,103 @@
+﻿
+@{
+    ViewBag.Title = "Detay";
+}
+
+@model BlogSite.DB.Makale
+
+<article class="blog-post">
+    <header>
+        <h2>
+            @Model.Baslik
+        </h2>
+        <ul class="info">
+            <li><a href="/Kategori/Index/@Model.KategoriID">{ @Model.Kategori.Adi }</a></li>
+            <li><a href="/Makale/TariheGoreListele?yil=@Model.YayimTarihi.Year&ay=@Model.YayimTarihi.Month">{ @Model.YayimTarihi.ToString("MMMM yyyy") }</a></li>
+            <li><a href="/Kullanici/Index/@Model.YazarID">{ @Model.Kullanici.Adi @Model.Kullanici.Soyadi }</a></li>
+            <li>{ Yorumlar: <a href="#Yorum">@Model.Yorums.Count</a> }</li>
+        </ul>
+    </header>
+    <div class="text-editor">
+      
+        @Model.Icerik
+
+        <div class="author-wrap">
+            <div class="author">
+                <figure>
+                    <a href="/Kullanici/Index/@Model.YazarID">
+                        <img src="@Model.Kullanici.Multimedia.KucukResimYol" alt="#" />
+                    </a>
+                </figure>
+                <div class="name">@Model.Kullanici.Adi @Model.Kullanici.Soyadi</div>
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+<a id="Yorum"/>
+<div class="comments">
+    <h3>
+        @Model.Yorums.Count Yorum
+    </h3>
+    <ul>
+        @foreach (var yorum in Model.Yorums)
+        {
+            <li class="comment">
+                <div class="user">
+                    <figure>
+                        <a href="#">
+                            <img src="@yorum.Kullanici.Multimedia.KucukResimYol" alt="" />
+                        </a>
+                    </figure>
+                    <div class="name text-center">
+                        <a href="#">@yorum.Kullanici.Adi @yorum.Kullanici.Soyadi</a>
+                    </div>
+                </div>
+                <div class="comment-box">
+                    <div class="text">
+
+                        @yorum.Icerik
+
+                    </div>
+                </div>
+            </li>
+        }
+        
+    </ul>
+</div>
+
+
+
+@{
+    BlogSite.DB.Kullanici k = new BlogSite.DB.Kullanici();
+        }
+
+@if (ViewBag.Kullanici != null)
+    {
+
+    <div class="write-comment">
+        <h3>Yorum Yaz</h3>
+        <div class="user">
+            <figure>
+                <a href="#">
+                    <img src="@ViewBag.Kullanici.Multimedia.KucukResimYol" alt="" />
+                </a>
+            </figure>
+            <div class="name text-center">
+                <a href="#">@ViewBag.Kullanici.Adi @ViewBag.Kullanici.Soyadi</a>
+            </div>
+        </div>
+        <div class="textarea-wrap">
+            <form action="/Makale/YorumYaz" method="post" >
+                <input type="hidden" name="YazarID" value="@ViewBag.Kullanici.ID" />
+                <input type="hidden" name="MakaleID" value="@Model.ID" />
+                <textarea name="Icerik" placeholder="Birşeyler Yazın" ></textarea>
+                <button type="submit" class="send">Gönder</button>
+            </form>
+        </div>
+        <hr>
+    </div>
+}
+

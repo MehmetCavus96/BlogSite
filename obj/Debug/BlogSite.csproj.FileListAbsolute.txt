@@ -1,0 +1,102 @@
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\ApplicationInsights.config
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\roslyn\csc.exe
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\roslyn\System.Collections.Immutable.dll
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\roslyn\vbc.exe
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\roslyn\VBCSCompiler.exe
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\roslyn\VBCSCompiler.exe.config
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\BlogSite.dll.config
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\BlogSite.dll
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\BlogSite.pdb
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\EntityFramework.dll
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\EntityFramework.SqlServer.dll
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\Microsoft.AI.Web.dll
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\Microsoft.AI.WindowsServer.dll
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\Microsoft.ApplicationInsights.dll
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\Microsoft.Web.Infrastructure.dll
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\System.Web.Helpers.dll
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\System.Web.Mvc.dll
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\System.Web.Razor.dll
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\System.Web.Webpages.Deployment.dll
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\System.Web.Webpages.dll
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\System.Web.Webpages.Razor.dll
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\EntityFramework.xml
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\EntityFramework.SqlServer.xml
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\Microsoft.AI.Web.xml
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\Microsoft.AI.WindowsServer.xml
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\Microsoft.ApplicationInsights.xml
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\System.Web.Razor.xml
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\System.Web.Webpages.xml
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\System.Web.Webpages.Deployment.xml
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\System.Web.Webpages.Razor.xml
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\System.Web.Helpers.xml
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\bin\System.Web.Mvc.xml
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\obj\Debug\BlogSite.csprojResolveAssemblyReference.cache
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\obj\Debug\BlogSite.dll
+c:\users\mehme\documents\visual studio 2015\Projects\BlogSite\BlogSite\obj\Debug\BlogSite.pdb
+E:\Programlar\BlogSite\BlogSite\bin\ApplicationInsights.config
+E:\Programlar\BlogSite\BlogSite\bin\roslyn\csc.exe
+E:\Programlar\BlogSite\BlogSite\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Programlar\BlogSite\BlogSite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Programlar\BlogSite\BlogSite\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Programlar\BlogSite\BlogSite\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Programlar\BlogSite\BlogSite\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Programlar\BlogSite\BlogSite\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Programlar\BlogSite\BlogSite\bin\roslyn\System.Collections.Immutable.dll
+E:\Programlar\BlogSite\BlogSite\bin\roslyn\System.Reflection.Metadata.dll
+E:\Programlar\BlogSite\BlogSite\bin\roslyn\vbc.exe
+E:\Programlar\BlogSite\BlogSite\bin\roslyn\VBCSCompiler.exe
+E:\Programlar\BlogSite\BlogSite\bin\roslyn\VBCSCompiler.exe.config
+E:\Programlar\BlogSite\BlogSite\bin\BlogSite.dll.config
+E:\Programlar\BlogSite\BlogSite\bin\BlogSite.dll
+E:\Programlar\BlogSite\BlogSite\bin\BlogSite.pdb
+E:\Programlar\BlogSite\BlogSite\bin\EntityFramework.dll
+E:\Programlar\BlogSite\BlogSite\bin\EntityFramework.SqlServer.dll
+E:\Programlar\BlogSite\BlogSite\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Programlar\BlogSite\BlogSite\bin\Microsoft.AI.DependencyCollector.dll
+E:\Programlar\BlogSite\BlogSite\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Programlar\BlogSite\BlogSite\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Programlar\BlogSite\BlogSite\bin\Microsoft.AI.Web.dll
+E:\Programlar\BlogSite\BlogSite\bin\Microsoft.AI.WindowsServer.dll
+E:\Programlar\BlogSite\BlogSite\bin\Microsoft.ApplicationInsights.dll
+E:\Programlar\BlogSite\BlogSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Programlar\BlogSite\BlogSite\bin\Microsoft.Web.Infrastructure.dll
+E:\Programlar\BlogSite\BlogSite\bin\System.Web.Helpers.dll
+E:\Programlar\BlogSite\BlogSite\bin\System.Web.Mvc.dll
+E:\Programlar\BlogSite\BlogSite\bin\System.Web.Razor.dll
+E:\Programlar\BlogSite\BlogSite\bin\System.Web.Webpages.Deployment.dll
+E:\Programlar\BlogSite\BlogSite\bin\System.Web.Webpages.dll
+E:\Programlar\BlogSite\BlogSite\bin\System.Web.Webpages.Razor.dll
+E:\Programlar\BlogSite\BlogSite\bin\EntityFramework.xml
+E:\Programlar\BlogSite\BlogSite\bin\EntityFramework.SqlServer.xml
+E:\Programlar\BlogSite\BlogSite\bin\Microsoft.AI.DependencyCollector.xml
+E:\Programlar\BlogSite\BlogSite\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Programlar\BlogSite\BlogSite\bin\Microsoft.AI.Web.xml
+E:\Programlar\BlogSite\BlogSite\bin\Microsoft.AI.WindowsServer.xml
+E:\Programlar\BlogSite\BlogSite\bin\Microsoft.ApplicationInsights.xml
+E:\Programlar\BlogSite\BlogSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Programlar\BlogSite\BlogSite\bin\System.Web.Razor.xml
+E:\Programlar\BlogSite\BlogSite\bin\System.Web.Webpages.xml
+E:\Programlar\BlogSite\BlogSite\bin\System.Web.Webpages.Deployment.xml
+E:\Programlar\BlogSite\BlogSite\bin\System.Web.Webpages.Razor.xml
+E:\Programlar\BlogSite\BlogSite\bin\System.Web.Helpers.xml
+E:\Programlar\BlogSite\BlogSite\bin\System.Web.Mvc.xml
+E:\Programlar\BlogSite\BlogSite\obj\Debug\BlogSite.csprojAssemblyReference.cache
+E:\Programlar\BlogSite\BlogSite\obj\Debug\BlogSite.csproj.CoreCompileInputs.cache
+E:\Programlar\BlogSite\BlogSite\obj\Debug\BlogSite.csproj.CopyComplete
+E:\Programlar\BlogSite\BlogSite\obj\Debug\BlogSite.dll
+E:\Programlar\BlogSite\BlogSite\obj\Debug\BlogSite.pdb
